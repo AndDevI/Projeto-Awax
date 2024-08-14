@@ -1,9 +1,15 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     height: 100px;
     background-color: black;
+}
+
+.header {
+    max-width: 1140px;
+    margin: auto;
 }
