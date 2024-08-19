@@ -253,3 +253,46 @@ header {
     font-size: 12px;
     color: #999;
 }
+
+/*Area projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filters_project {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #eee;
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.filters_project ul,
+.filters_project li {
+    list-style: none;
+}
+
+.filters_project li {
+    display: inline-block;
+    padding: 10px;
+
+    text-transform: uppercase;
+    font-size: 13px;
+
+    border-left: 1px solid #ccc;
+    border-bottom: 3px solid #eee;
+    color: #555;
+
+    cursor: pointer;
+}
+
+.filters_project li:hover {
+    border-bottom: 3px solid #b28756;
+}
+
+.filters_project li:first-child {
+    border-left: 0;
+}
