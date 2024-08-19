@@ -183,21 +183,21 @@ header {
     margin: auto;
 }
 
-.default .light {
+.default.light {
     background-color: #f7f7f7;
 }
 
-.default .light .section_title,
-.default .light .section_body {
+.default.light .section_title,
+.default.light .section_body {
     color: black;
 }
 
-.default .dark {
+.default.dark {
     background-color: black;
 }
 
-.default .dark .section_title 
-.default .dark .section_body {
+.default.dark .section_title, 
+.default.dark .section_body {
     color: white;
 }
 
@@ -250,6 +250,6 @@ header {
 
 .service p {
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
 }
