@@ -114,8 +114,8 @@ header {
     margin-top: 20px;
 }
 
-.banner a {
-    display: block;
+.button {
+    display: inline-block;
     background-color: #b28756;
     color: white;
     
@@ -187,7 +187,8 @@ header {
     background-color: #f7f7f7;
 }
 
-.default .light .section_title {
+.default .light .section_title,
+.default .light .section_body {
     color: black;
 }
 
@@ -195,6 +196,30 @@ header {
     background-color: black;
 }
 
-.default .dark .section_title {
+.default .dark .section_title 
+.default .dark .section_body {
     color: white;
+}
+
+.aboutus {
+    display: flex;
+}
+
+.aboutus_left {
+    flex: 1;
+}
+
+.aboutus_left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.aboutus_right {
+    width: 500px;
+    text-align: center;
+}
+
+.aboutus_right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
