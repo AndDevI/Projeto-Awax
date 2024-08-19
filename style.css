@@ -4,6 +4,8 @@
     box-sizing: border-box;
 
     font-family: 'Montserrat';
+
+    overflow-x: hidden;
 }
 
 header {
@@ -150,4 +152,49 @@ header {
     margin-right: 5px;
 
     cursor: pointer;
+}
+
+.default {
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section_title,
+.default .section_desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section_title {
+    font-size: 20px;
+}
+
+.default .section_desc {
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.default .section_body {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.default .light {
+    background-color: #f7f7f7;
+}
+
+.default .light .section_title {
+    color: black;
+}
+
+.default .dark {
+    background-color: black;
+}
+
+.default .dark .section_title {
+    color: white;
 }
