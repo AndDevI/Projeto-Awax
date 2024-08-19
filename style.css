@@ -296,3 +296,52 @@ header {
 .filters_project li:first-child {
     border-left: 0;
 }
+
+.project_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 280px;
+}
+
+.photo_area {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.photo_area img {
+    width: inherit;
+    height: inherit;
+}
+
+.photo_info {
+    width: inherit;
+    height: inherit;
+
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.photo_info h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.photo_area:hover .photo_info {
+    display: flex;
+}
