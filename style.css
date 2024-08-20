@@ -419,7 +419,7 @@ header {
 }
 
 .team_social a {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 
