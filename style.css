@@ -456,3 +456,52 @@ header {
 
     cursor: pointer;
 }
+
+
+/*Area map */
+.map {
+    background-image: url(assets/Images/complement/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.map-area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.map-info {
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    color: #999;
+}
+
+.info-item { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 15px;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #999;
+    border-radius: 50%;
+}
+
+.item-img img {
+    width: 15px;
+    height: auto;
+}
