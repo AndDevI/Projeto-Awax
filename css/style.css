@@ -84,7 +84,7 @@ header {
 .banner {
     height:calc(100vh - 100px);
     background-color:#333;
-    background-image:url(assets/Images/complement/bg.jpg);
+    background-image:url('../assets/Images/complement/bg.jpg');
     background-size:cover;
     background-position:bottom;
     overflow:hidden;
@@ -366,7 +366,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 .bg-team {
-    background-image:url('../images/bg.jpg');
+    background-image:url('../assets/Images/complement/bg.jpg');
     background-size:cover;
     background-position:center;
     padding:0;
@@ -765,7 +765,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 .section-map {
-    background-image:url('../images/mapa.jpg');
+    background-image: url('../assets/Images/complement/mapa.jpg');
     background-size:cover;
     background-position:center;
     padding-top:30px;
